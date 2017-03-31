@@ -1,5 +1,6 @@
 //index.js
 //获取应用实例
+//http://blog.csdn.net/tycsbs/article/details/52690007?_t_t_t=0.7465108021865636 参考网址
 var app = getApp()
 Page( {
 

@@ -14,11 +14,11 @@
 
 
             <text class="page-body-form-key">位置名称</text>
-            <input class="page-body-form-value" type="text"  value="总部基地二区" name="name"></input>
+            <input class="page-body-form-value" type="text"  value="" name="name"></input>
 
 
             <text class="page-body-form-key">详细位置</text>
-            <input class="page-body-form-value" type="text"  value="浙江大学滨海产业技术研究院" name="address"></input>
+            <input class="page-body-form-value" type="text"  value="" name="address"></input>
 
         </view>
 
