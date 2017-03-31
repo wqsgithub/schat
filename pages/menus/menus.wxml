@@ -1,0 +1,10 @@
+<view class="container" style="flex-wrap:wrap">
+    <view id="kuaidi" class="viewtb00 divtext" bindtap="seachall">查快递</view>
+    <view class="viewtb01 divtext">查天气</view>
+    <view class="viewtb10 divtext">百度</view>
+    <view class="viewtb11 divtext">新浪</view>
+    <view class="viewtb20 divtext">糗事百科</view>
+    <view class="viewtb21 divtext">今日头条</view>
+    <view class="viewtb11 divtext">大姨妈</view>
+    <view class="viewtb10 divtext">我的日记</view>
+</view>

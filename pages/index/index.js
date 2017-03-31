@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: '你好我的小程序',
+    //motto: '功能列表',
     userInfo: {}
   },
   //事件处理函数

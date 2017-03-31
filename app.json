@@ -1,12 +1,37 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/menus/menus",
+    "pages/map/map"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "我的好伙伴",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/tabBar/main.png",
+      "selectedIconPath": "images/tabBar/main_fill.png"
+    },{
+      "pagePath": "pages/menus/menus",
+      "text": "功能",
+      "iconPath": "images/tabBar/edit.png",
+      "selectedIconPath": "images/tabBar/edit_fill.png"
+    }
+    ,{
+      "pagePath": "pages/map/map",
+      "text": "地图",
+      "iconPath": "images/tabBar/starts.png",
+      "selectedIconPath": "images/tabBar/starts_fill.png"
+    }
+    ]
   }
 }

@@ -1,5 +1,6 @@
 /**index.wxss**/
 .userinfo {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -13,9 +14,21 @@
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #aaa;  
 }
 
 .usermotto {
-  margin-top: 100px;
+  margin-top: 10px;
+  margin-left: 10;
 }
+.container{
+   margin-top: 10px;
+   padding: 20rpx 0;
+}
+/*主界面菜单*/
+.main-menu-div{width:88%; height:450px; border:1px solid #b8dcef;display: flex;background:#b8dcef;} 
+/**菜单*/
+.btn001{width:50%;height:80px;border:1px solid #b8dcef;display: flex;background:#ff77ff;margin: 5px;}
+.btn002{width:50%;height:80px;border:1px solid #b8dcef;display: flex;background:#66ffff;margin: 5px;float:right;}
+.btn003{width:50%;height:80px;border:1px solid #b8dcef;display: flex;background:#ff77ff;margin: 5px;margin-top:100px;}
+.btn004{width:50%;height:80px;border:1px solid #b8dcef;display: flex;background:#ff77ff;margin: 5px;margin-top:100px;}

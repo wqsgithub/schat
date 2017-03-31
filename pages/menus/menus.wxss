@@ -1,0 +1,8 @@
+.container{flex-direction: row;flex-wrap: wrap;text-align: center;justify-content: center;}
+.viewtb00{width: 45%;height: 100px;background-color: #F76260;margin: 5px;}
+.viewtb01{width: 45%;height: 100px;background-color: #09BB07;margin: 5px;}
+.viewtb10{width: 45%;height: 100px;background-color: #10AEFF;margin: 5px;}
+.viewtb11{width: 45%;height: 100px;background-color: #FFBE00;margin: 5px;}
+.viewtb20{width: 45%;height: 100px;background-color: #F76260;margin: 5px;}
+.viewtb21{width: 45%;height: 100px;background-color: #09EE88;margin: 5px;}
+.divtext{vertical-align: middle;line-height: 100px;}
