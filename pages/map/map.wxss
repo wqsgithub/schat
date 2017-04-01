@@ -25,6 +25,10 @@
 }
 
 .page-body-button{
-  margin-top:20px;
+  height: 200px;
+  width: 200px;
+  margin-top:20%;
   line-height: 2;
+  border-radius: 50%;
+  text-align: center;
 }

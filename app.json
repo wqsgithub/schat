@@ -31,7 +31,7 @@
       "text": "地图",
       "iconPath": "images/tabBar/starts.png",
       "selectedIconPath": "images/tabBar/starts_fill.png"
-    }
+    }    
     ]
   }
 }

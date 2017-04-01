@@ -6,12 +6,25 @@ Page( {
 
   data: {
     //默认未获取地址
-    hasLocation: false
+    hasLocation: true    
   },
-
+  onLoad:function(){
+      var that = this
+      wx.getLocation( {
+      success: function( res ) {
+        console.log( res )
+        that.setData( {
+          hasLocation: true,
+          location: {
+            longitude: res.longitude,
+            latitude: res.latitude
+          }
+        })
+      }
+    })
+  },
   //获取经纬度
-  getLocation: function(e) {
-    console.log(e)
+  getLocation: function(e) {    
     var that = this
     wx.getLocation( {
       success: function( res ) {
@@ -26,7 +39,7 @@ Page( {
       }
     })
   },
-//根据经纬度在地图上显示
+  //根据经纬度在地图上显示
   openLocation: function( e ) {
     var value = e.detail.value
     wx.openLocation( {
